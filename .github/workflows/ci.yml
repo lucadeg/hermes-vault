@@ -1,17 +1,10 @@
+
 name: CI
 
 on:
-  push:
-    branches:
-      - master
-      - 'chore/**'
-      - 'feat/**'
-      - 'fix/**'
-  pull_request:
-    branches:
-      - master
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 
